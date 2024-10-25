@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList login</title>
+    <link rel="stylesheet" href="style.css" />
+   
+</head>
+<body>
+    <body>
+        <div class="wrapper">
+          <form  id="login-form" action="#">
+            <h2>Login</h2>
+              <div class="input-field">
+              <input  name="email" type="text" required>
+              <label>Enter your email</label>
+            </div>
+            <div class="input-field">
+              <input name="password" type="password" required>
+              <label>Enter your password</label>
+            </div>
+            <div class="forget">
+              <label for="remember">
+                <input type="checkbox" id="remember">
+                <p>Remember me</p>
+            </div>
+            <button type="submit">Log In</button>
+            <div class="register">
+              <p>Don't have an account? <a href="./register.html">Register</a></p>
+            </div>
+          </form>
+        </div>
+        <script src="./login.js" type="module"></script>
+</body>
+</html>
